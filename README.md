@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="DustVault Logo" width="120" height="120">
+</p>
+
 # 🎮 DustVault
 
 **DustVault** is a modern mobile and web application designed for gamers and collectors to **track, organize, and value their video game collection**—all in one unified experience.
