@@ -106,16 +106,3 @@ PRs are welcome! If you'd like to contribute:
 
 Created by **[Benoit Ardiet](https://www.linkedin.com/in/benoitardiet/)**
 DMs are open if you'd like to collaborate or share feedback!
-
----
-
-## 📜 License
-
-[MIT](LICENSE)
-
-```
-
----
-
-Let me know if you want to localize it (e.g. French/Spanish), or make it investor-oriented instead of developer-focused.
-```
