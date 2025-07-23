@@ -1,50 +1,115 @@
-# Welcome to your Expo app 👋
+# 🎮 DustVault
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**DustVault** is a modern mobile and web application designed for gamers and collectors to **track, organize, and value their video game collection**—all in one unified experience.
 
-## Get started
+---
 
-1. Install dependencies
+## 🧭 About the Project
+
+Managing a growing game collection can be chaotic—between physical cartridges, digital licenses, price fluctuations, and wishlists, there's no centralized way to see it all.
+
+**DustVault** solves this by offering:
+- 🔍 **Smart search** powered by the IGDB API
+- 💰 **Live market pricing** via PriceCharting integration
+- 🎮 **Collection tracking** with cover art, platforms, and completion status
+- 📱 A clean, responsive UI built with **React Native + Expo**
+- ☁️ **Cross-platform sync** through Supabase (PostgreSQL backend)
+
+---
+
+## 🎯 Goal of the App
+
+The goal of DustVault is to help gamers:
+
+- 🗂 **Catalog their entire game library** (retro and modern)
+- 📊 **Track game values** and price history in real-time
+- 🎯 **Set goals**: what to play, what to finish, what to sell
+- 🧾 **Export and back up** collection data
+- 🔒 Maintain **secure, private access** to their data
+
+Whether you're a hardcore collector or just nostalgic about your childhood games, **DustVault** aims to be your personal game vault.
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend**: React Native (Expo)
+- **Backend**: Supabase (PostgreSQL + Auth + Storage)
+- **APIs**: IGDB (game data), PriceCharting (market prices)
+- **Auth**: Email/password + future support for OAuth
+- **Deployment Targets**: iOS, Android, Web (PWA), and later: Steam
+
+---
+
+## 🛠 Current Features (v1)
+
+- [ ] Authentication: Login / Register / Forgot Password
+- [ ] Home screen with featured games & stats
+- [ ] My Collection: browse, filter, and search your games
+- [ ] Game details page (platforms, region, price trends)
+- [ ] Add/remove games from your library
+- [ ] Wishlist support
+
+---
+
+## 🧪 Development Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-user/dustvault.git
+   cd dustvault
+````
+
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the app:
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+> Requires Node.js 18+ and Expo CLI (`npm install -g expo-cli`)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 💡 Roadmap
 
-## Get a fresh project
+* 🔐 Biometric login
+* 🎮 Manual game entry for rare/unlisted titles
+* 🏷️ Tagging, sorting, and completion status
+* 📈 Price history charts
+* 🛒 Integration with eBay and local marketplaces
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
+## 🤝 Contributing
+
+PRs are welcome! If you'd like to contribute:
+
+* Open a new issue or pick one from the roadmap
+* Fork the project and open a pull request
+* Discuss major changes in the [Issues](https://github.com/your-user/dustvault/issues) tab
+
+---
+
+## 📫 Contact
+
+Created by **[Benoit Ardiet](https://www.linkedin.com/in/benoitardiet/)**
+DMs are open if you'd like to collaborate or share feedback!
+
+---
+
+## 📜 License
+
+[MIT](LICENSE)
+
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Let me know if you want to localize it (e.g. French/Spanish), or make it investor-oriented instead of developer-focused.
+```
