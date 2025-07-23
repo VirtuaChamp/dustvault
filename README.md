@@ -34,8 +34,9 @@ Whether you're a hardcore collector or just nostalgic about your childhood games
 ## 🚀 Tech Stack
 
 - **Frontend**: React Native (Expo)
+- **API Layer**: ASP.NET Core Web API (.NET 9) - Middleware between frontend and external services
 - **Backend**: Supabase (PostgreSQL + Auth + Storage)
-- **APIs**: IGDB (game data), PriceCharting (market prices)
+- **External APIs**: IGDB (game data), PriceCharting (market prices)
 - **Auth**: Email/password + future support for OAuth
 - **Deployment Targets**: iOS, Android, Web (PWA), and later: Steam
 
@@ -58,21 +59,26 @@ Whether you're a hardcore collector or just nostalgic about your childhood games
    ```bash
    git clone https://github.com/your-user/dustvault.git
    cd dustvault
-````
-
-2. Install dependencies:
-
-   ```bash
-   npm install
    ```
 
-3. Start the app:
-
+2. **Backend API Setup** (DustVault.Api):
    ```bash
+   cd DustVault.Api
+   dotnet restore
+   dotnet run
+   ```
+   > The API will run on https://localhost:7034 with Swagger UI available
+
+3. **Frontend Setup** (DustVault.Front):
+   ```bash
+   cd DustVault.Front
+   npm install
    npx expo start
    ```
 
-> Requires Node.js 18+ and Expo CLI (`npm install -g expo-cli`)
+> **Requirements**: 
+> - .NET 9 SDK for the API
+> - Node.js 18+ and Expo CLI for the frontend
 
 ---
 
