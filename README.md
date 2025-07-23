@@ -108,5 +108,5 @@ PRs are welcome! If you'd like to contribute:
 
 ## 📫 Contact
 
-Created by **[Benoit Ardiet](https://www.linkedin.com/in/benoitardiet/)**
+Created by **[Benoit Ardiet](https://www.linkedin.com/in/benoit-ardiet/)**
 DMs are open if you'd like to collaborate or share feedback!
